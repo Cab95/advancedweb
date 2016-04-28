@@ -20,7 +20,7 @@ foreach($characters as $character)
 echo "</ul>";
 
  ?>
-<h1>Add a new favourite character! (Refresh page if new character is not displayed.)</h1>
+<h1>Add a new favourite character! (Refresh page if new character is not displayed or deleted.)</h1>
 <!--new character form-->
 <form action="<?php echo site_url('/charactercontroller/addchar');?>" method="post">
 <label for="charactername">Character Name:</label>

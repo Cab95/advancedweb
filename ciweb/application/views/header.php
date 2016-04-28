@@ -20,6 +20,8 @@
  <ul>
  <li><a href="<?php echo base_url('index.php/homecontroller/home'); ?>">Home</a></li>
  <li><a href="<?php echo base_url('index.php/charactercontroller/allcharacters'); ?>">Favourite Characters</a></li>
+  <li><a href="<?php echo base_url('index.php/charactercontroller/deletecharacterform'); ?>">Remove Character</a></li>
+  <li><a href="<?php echo base_url('index.php/charactercontroller/show_character_id'); ?>">Update Existing Character</a></li>
 
  </ul>
  </nav>
