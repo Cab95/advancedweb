@@ -18,7 +18,8 @@
 <p></p>
 <nav>
  <ul>
- <li><a href="<?php echo base_url('index.php/HomeController/home'); ?>">Home</a></li>
+ <li><a href="<?php echo base_url('index.php/homecontroller/home'); ?>">Home</a></li>
+ <li><a href="<?php echo base_url('index.php/charactercontroller/allcharacters'); ?>">Favourite Characters</a></li>
 
  </ul>
  </nav>
