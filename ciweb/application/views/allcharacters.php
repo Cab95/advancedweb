@@ -7,8 +7,22 @@
 </head>
 <body>
 
+
+<h1>Add a new favourite character!</h1>
+<!--new character form-->
+<div id="allcharForm">
+<form action="<?php echo site_url('/charactercontroller/addchar');?>" method="post">
+<label for="charactername">Character Name:</label>
+<input type="text" name="charactername">
+<label for="media">Media:</label>
+<textarea name="media" cols="30" rows="1"></textarea>
+<input type="submit" name="Add character" value="Add character">
+</form>
+</div>
+<div id="allcharDisplay">
 <?php
 /*Table for displaying data*/
+echo "<h1>Character List</h1>";
  echo "<ul>";
 foreach($characters as $character)
 {
@@ -20,15 +34,6 @@ foreach($characters as $character)
 echo "</ul>";
 
  ?>
-<h1>Add a new favourite character! (Refresh page if new character is not displayed or deleted.)</h1>
-<!--new character form-->
-<form action="<?php echo site_url('/charactercontroller/addchar');?>" method="post">
-<label for="charactername">Character Name:</label>
-<input type="text" name="charactername">
-<label for="media">Media:</label>
-<textarea name="media" cols="30" rows="1"></textarea>
-<input type="submit" name="Add character" value="Add character">
-</form>
-
+</div>
 </body>
 </html>

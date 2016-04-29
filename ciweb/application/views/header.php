@@ -8,25 +8,26 @@
 
 </head>
 <body>
-    
+    <div id="fullHeader">
     <div id="websiteHeader">
 <h1>Favourite Characters</h1>
-</div>
+ </div>
  
-</div>
+
 
 <p></p>
-<nav>
+<nav class="navLinks">
  <ul>
- <li><a href="<?php echo base_url('index.php/homecontroller/home'); ?>">Home</a></li>
- <li><a href="<?php echo base_url('index.php/charactercontroller/allcharacters'); ?>">Favourite Characters</a></li>
+
+
   <li><a href="<?php echo base_url('index.php/charactercontroller/deletecharacterform'); ?>">Remove Character</a></li>
   <li><a href="<?php echo base_url('index.php/charactercontroller/show_character_id'); ?>">Update Existing Character</a></li>
+   <li><a href="<?php echo base_url('index.php/charactercontroller/allcharacters'); ?>">Favourite Characters</a></li>
+   <li><a href="<?php echo base_url('index.php/loginhomecontroller'); ?>">Home</a></li>
 
  </ul>
  </nav>
-
- 
+</div>
  
  </body>
  </html>

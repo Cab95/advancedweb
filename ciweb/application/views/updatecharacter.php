@@ -4,10 +4,10 @@
 
 </head>
 <body>
-<div id="container">
-<div id="wrapper">
-<h1>Update Character </h1><hr/>
-<div id="menu">
+
+
+<h1>Choose a character to update</h1>
+<div id="updatecharForm">
 
 <!-- Getting Names Of All Chars From Database -->
 <ol>
@@ -15,8 +15,8 @@
 <li><a href="<?php echo base_url() . "index.php/charactercontroller/show_character_id/" . $character->characterID; ?>"><?php echo $character->charactername; ?></a></li>
 <?php endforeach; ?>
 </ol>
-</div>
-<div id="detail">
+
+
 <!-- Fetching All Details of Selected Student From Database And Showing In a Form -->
 <?php foreach ($single_character as $character): ?>
 <p>Edit the character in the fields below and click update to save</p>
@@ -32,7 +32,6 @@
 </form>
 <?php endforeach; ?>
 </div>
-</div>
-</div>
+
 </body>
 </html>

@@ -1,0 +1,59 @@
+#websiteHeader{
+    font-size: 14px;
+    color: white;
+    float: left;
+}
+#fullHeader{
+   clear: both;
+    overflow: auto;
+     display: block;
+    
+     padding: 3px 20px;
+      background-color: #449B8E;
+     
+     
+}
+.navLinks{ 
+
+
+   
+}
+.navLinks ul{
+    list-style-type: none;
+  
+   
+}
+.navLinks li{
+    float: right;
+     margin-top: 12px;
+}
+.navLinks a{
+   
+    text-decoration: none;
+ padding: 10px;
+      color: white;
+}
+h1{
+    text-align: center;
+}
+#allcharForm{
+    text-align: center;
+    
+}
+#updatecharForm{
+    text-align: center;
+   
+}
+#deletecharForm{
+    text-align: center;
+}
+#allcharDisplay{
+    text-align: center;
+}
+table.centered-table{
+    margin-left:auto; 
+    margin-right:auto;
+}
+.centered-table tr, td{
+    font-size: 20px;
+}
