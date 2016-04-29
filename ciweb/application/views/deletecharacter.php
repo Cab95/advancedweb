@@ -10,7 +10,7 @@
 <?php
 echo form_open('Charactercontroller/delete');
 echo"<h1>Choose characters to delete</h1>";
-
+//form,checkbox,button for deleting characters
 foreach($character as $characters)
 {
 	

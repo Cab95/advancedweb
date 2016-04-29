@@ -8,14 +8,15 @@
 
 </head>
 <body>
-    <div id="fullHeader">
-    <div id="websiteHeader">
+    <div id="fullHeader"> <!-- header and nav bar -->
+    <div id="websiteHeader"> <!-- header only-->
 <h1>Favourite Characters</h1>
  </div>
  
 
 
 <p></p>
+<!-- Nav bar links that are displayed on every page-->
 <nav class="navLinks">
  <ul>
 

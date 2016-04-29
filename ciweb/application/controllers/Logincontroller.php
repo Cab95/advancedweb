@@ -1,7 +1,7 @@
 <?php
  
 class Logincontroller extends CI_Controller {
- 
+ // controller for log in
  function __construct()
  {
    parent::__construct();

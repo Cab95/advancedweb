@@ -32,7 +32,7 @@ $data['msg']="Error";
 
  redirect('/charactercontroller/allcharacters', 'refresh');
 }
-
+/*Delete character function*/
 public function deletecharacterform(){
 
 		$this->load->helper('form');
@@ -56,7 +56,7 @@ public function deletecharacterform(){
 	}
 
 
-
+/* function for updating character*/
 function show_character_id() {
  $this->load->model('charactermodel');
 $this->load->view("header"); 

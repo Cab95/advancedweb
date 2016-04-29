@@ -21,7 +21,7 @@
 </div>
 <div id="allcharDisplay">
 <?php
-/*Table for displaying data*/
+/*Table for displaying all the users favourite characters data input by the form*/
 echo "<h1>Character List</h1>";
  echo "<ul>";
 foreach($characters as $character)

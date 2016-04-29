@@ -1,8 +1,10 @@
+/*Website heading only*/
 #websiteHeader{
     font-size: 14px;
     color: white;
     float: left;
 }
+/*website heading and navigation links*/
 #fullHeader{
    clear: both;
     overflow: auto;
@@ -13,6 +15,7 @@
      
      
 }
+/*nav bar only css*/
 .navLinks{ 
 
 
@@ -33,6 +36,7 @@
  padding: 10px;
       color: white;
 }
+/*centering pages*/
 h1{
     text-align: center;
 }

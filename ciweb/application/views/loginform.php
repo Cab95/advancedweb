@@ -5,6 +5,7 @@
  </head>
  <body>
    <h1>Welcome to Favourite Characters! Log in below</h1>
+   <!-- log in form -->
    <?php echo validation_errors(); ?>
    <?php echo form_open('verifycontroller'); ?>
      <label for="username">Username:</label>

@@ -7,7 +7,7 @@
 
 
 <h1>Choose a character to update</h1>
-<div id="updatecharForm">
+<div id="updatecharForm"> 
 
 <!-- Getting Names Of All Chars From Database -->
 <ol>
@@ -17,7 +17,7 @@
 </ol>
 
 
-<!-- Fetching All Details of Selected Student From Database And Showing In a Form -->
+<!-- input for updating the selected character -->
 <?php foreach ($single_character as $character): ?>
 <p>Edit the character in the fields below and click update to save</p>
 <form method="post" action="<?php echo base_url() . "index.php/charactercontroller/update_character_id1"?>">

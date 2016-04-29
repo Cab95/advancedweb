@@ -22,11 +22,13 @@ class Charactermodel extends CI_Model {
 	 return $result;
     }
  */
+  /*adding character*/
  function addcharacter($charactername,$media)
 {
  $newcharacter=array("charactername"=>$charactername,"media"=>$media);
  return $this->db->insert('characters', $newcharacter);
  }
+ /*deleting character*/
    function deletecharacter($characterid)
     {
 	 $this->db->where('characterid', $characterid);
@@ -34,13 +36,13 @@ class Charactermodel extends CI_Model {
 	 return $result;
     }
 
- // Function To Fetch All Students Record
+ //selects all characters
 function show_characters(){
 $query = $this->db->get('characters');
 $query_result = $query->result();
 return $query_result;
 }
-// Function To Fetch Selected Student Record
+// used for selecting character to update
 function show_character_id($data){
 $this->db->select('*');
 $this->db->from('characters');
@@ -49,7 +51,7 @@ $query = $this->db->get();
 $result = $query->result();
 return $result;
 }
-// Update Query For Selected Student
+// update character
 function update_character_id1($id,$data){
 $this->db->where('characterID', $id);
 $this->db->update('characters', $data);
